@@ -1,0 +1,130 @@
+# ============================
+# UNITY - AUTO-GENERATED FOLDERS
+# ============================
+
+# Unity auto-generated folders - Ignore these
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Cc]rashReports/
+[Ll]ogs/
+[Uu]serSettings/
+
+# Unity Cache Server
+UnityCache/
+
+# Local Editor settings (safe to ignore unless you need to sync Editor config across teams)
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity Collab files
+.collabignore
+
+# ===================================
+# UNITY - CRITICAL FILES TO KEEP
+# ===================================
+
+# DO NOT IGNORE .meta files — absolutely critical
+# Keep *.meta files committed into Git
+
+# DO NOT IGNORE Assets, ProjectSettings, Packages
+# Assets/ -> Your game data (KEEP)
+# ProjectSettings/ -> Engine settings (KEEP)
+# Packages/manifest.json -> Package manager dependencies (KEEP)
+
+# ===================================
+# BLENDER FILES
+# ===================================
+
+# Blender backups
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+*.blend@
+*.blend.save
+*.blend_backup/
+
+# ===================================
+# OS & IDE FILES
+# ===================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# ===================================
+# BUILD / DEPLOYMENT / BINARY OUTPUTS
+# ===================================
+
+# Android
+*.apk
+*.aab
+*.unitypackage
+
+# iOS
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcsettings
+
+# WebGL
+/Assets/WebGLTemplates/
+
+# StreamingAssets
+StreamingAssets/
+
+# Temporary build output folders
+bin/
+obj/
+build/
+output/
+deploy/
+
+# ===================================
+# OTHER COMMON
+# ===================================
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+
+# Backup
+*.bak
+*.backup
+
+# Secrets / environment files
+.env
+.env.*
+
+# Git / LFS admin
+*.lfsconfig
+*.gitattributes.lock

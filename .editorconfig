@@ -1,0 +1,114 @@
+# ================================
+# Global settings
+# ================================
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Indentation settings
+indent_style = space
+indent_size = 4
+
+# ================================
+# Unity - C# Scripts
+# ================================
+
+[*.cs]
+# C# specific rules
+indent_style = space
+indent_size = 4
+dotnet_sort_system_directives_first = true
+csharp_new_line_before_open_brace = all
+csharp_indent_switch_labels = true
+csharp_style_var_elsewhere = true
+csharp_style_var_for_built_in_types = true
+csharp_style_var_when_type_is_apparent = true
+csharp_preserve_single_line_statements = false
+csharp_preserve_single_line_blocks = false
+
+# Organize usings
+dotnet_separate_import_directive_groups = true
+dotnet_sort_system_directives_first = true
+
+# Naming Conventions (Optional Advanced)
+#dotnet_naming_rule.private_fields_should_have_underscore.severity = suggestion
+#dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+#dotnet_naming_symbols.private_fields.required_modifiers = readonly
+#dotnet_naming_style.underscore_prefix.required_prefix = _
+#dotnet_naming_rule.private_fields_should_have_underscore.symbols = private_fields
+#dotnet_naming_rule.private_fields_should_have_underscore.style = underscore_prefix
+
+# ================================
+# Shader Files (HLSL, ShaderLab)
+# ================================
+
+[*.shader]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+
+[*.hlsl]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+
+# ================================
+# JSON / YAML (Unity Settings, Blender Formats)
+# ================================
+
+[*.json]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.yml]
+[*.yaml]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# ================================
+# Blender Asset Formats
+# ================================
+
+[*.gltf]
+[*.glb]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+# ================================
+# Markdown, Git-related Files
+# ================================
+
+[*.md]
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+[*.gitignore]
+[*.gitattributes]
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+# ================================
+# Shell Scripts, Bash
+# ================================
+
+[*.sh]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
